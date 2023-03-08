@@ -49,14 +49,14 @@ onMounted(() => {
           </a>
           ，免费且基于 MIT 协议，没有任何形式的付费行为！
         </p>
-        <p>
-          如果你觉得此项目对你有帮助，请在 Github 帮我点个 Star 或者给予一点赞助，谢谢！
-        </p>
       </div>
+			<!--隐藏
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
       <p>{{ $t("setting.reverseProxy") }}：{{ config?.reverseProxy ?? '-' }}</p>
       <p>{{ $t("setting.timeout") }}：{{ config?.timeoutMs ?? '-' }}</p>
       <p>{{ $t("setting.socks") }}：{{ config?.socksProxy ?? '-' }}</p>
+			-->
+			<p>API：GPT-3.5 / ChatGPT</p>
     </div>
   </NSpin>
 </template>
